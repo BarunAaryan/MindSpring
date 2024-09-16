@@ -69,6 +69,33 @@ const App = () => {
             <h1 className='text-4xl'>MindSpring AI</h1>
             <div className="boxes mt-[30px] flex items-center gap-2">
               {/* ... your existing cards ... */}
+              <div className="card rounded-lg cursor-pointer transition-all hover:bg-[#201f1f] px-[20px] relative min-h-[20vh] bg-[#181818] p-[10px]">
+                  <p className='text-[18px]'>What is coding ? <br />
+                    How we can learn it.</p>
+
+                  <i className=' absolute right-3 bottom-3 text-[18px]'><IoCodeSlash /></i>
+                </div>
+                <div className="card rounded-lg cursor-pointer transition-all hover:bg-[#201f1f] px-[20px] relative min-h-[20vh] bg-[#181818] p-[10px]">
+                  <p className='text-[18px]'>Which is the red <br />
+                    planet of solar <br />
+                    system </p>
+
+                  <i className=' absolute right-3 bottom-3 text-[18px]'><BiPlanet /></i>
+                </div>
+
+                <div className="card rounded-lg cursor-pointer transition-all hover:bg-[#201f1f] px-[20px] relative min-h-[20vh] bg-[#181818] p-[10px]">
+                  <p className='text-[18px]'>In which year python <br />
+                    was invented ?</p>
+
+                  <i className=' absolute right-3 bottom-3 text-[18px]'><FaPython /></i>
+                </div>
+
+                <div className="card rounded-lg cursor-pointer transition-all hover:bg-[#201f1f] px-[20px] relative min-h-[20vh] bg-[#181818] p-[10px]">
+                  <p className='text-[18px]'>How we can use <br />
+                    the AI for adopt ?</p>
+
+                  <i className=' absolute right-3 bottom-3 text-[18px]'><TbMessageChatbot /></i>
+                </div>
             </div>
           </div>
         )}
