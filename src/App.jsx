@@ -53,7 +53,7 @@ const App = () => {
   return (
     <div className="container w-screen h-screen overflow-hidden bg-[#0E0E0E] text-white flex flex-col">
       <div className="header pt-[25px] flex items-center justify-between w-full px-[300px]">
-        <h2 className='text-2xl'>MindSpring</h2>
+        <h2 className='text-2xl'>MindSpring AI</h2>
         <button id='newChatBtn' className='bg-[#181818] p-[10px] rounded-[30px] cursor-pointer text-[14px] px-[20px]' onClick={newChat}>New Chat</button>
       </div>
 
@@ -66,7 +66,7 @@ const App = () => {
           </div>
         ) : (
           <div className="middle flex items-center flex-col justify-center h-full">
-            <h1 className='text-4xl'>MindSpring</h1>
+            <h1 className='text-4xl'>MindSpring AI</h1>
             <div className="boxes mt-[30px] flex items-center gap-2">
               {/* ... your existing cards ... */}
             </div>
@@ -86,7 +86,7 @@ const App = () => {
           />
           {message && <i className='text-green-500 text-[20px] mr-5 cursor-pointer' onClick={hitRequest}><IoSend /></i>}
         </div>
-        <p className='text-[gray] text-[14px] mt-4'>MindSpring is developed by Barun Aaryan. This AI uses the Gemini API for giving the response</p>
+        <p className='text-[gray] text-[14px] mt-4'>MindSpring AI is developed by Barun Aaryan. This AI uses the Gemini API for giving the response</p>
       </div>
     </div>
   )
